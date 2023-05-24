@@ -10,10 +10,17 @@ What variable(s) are the target(s) for your model?
 The variables targeted are the classification and application type... 
 
 What variable(s) are the features for your model?
+
+
 What variable(s) should be removed from the input data because they are neither targets nor features?
 Compiling, Training, and Evaluating the Model
+The name and EIN was removed... 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Created 3 layers with two with Relu 15 and 14 neurons... Good guess... on trying to fit the model and improve an accuracy rating.. 
+
+
 Were you able to achieve the target model performance?
+It looks like I was unable to acheive the 80% accuracy rating. 
 What steps did you take in your attempts to increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Add additional layers... and increased the epoch to 300. 
